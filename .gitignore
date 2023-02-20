@@ -1,2 +1,6 @@
 .idea
+
 base/node_modules
+base/dist
+base/dist/index.js
+base/message.txt
