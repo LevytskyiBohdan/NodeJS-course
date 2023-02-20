@@ -1,6 +1,7 @@
 .idea
 
-base/node_modules
-base/dist
-base/dist/index.js
+
+*/node_modules
+*/dist
+
 base/message.txt
