@@ -1,0 +1,75 @@
+@import "reset.css";
+
+/*---------CUSTOM STYLE------------*/
+body {
+    font-family: sans-serif;
+}
+
+/*---------HEADER------------*/
+
+header {
+    background: chocolate;
+    width: 100%;
+    padding: 0 20px;
+}
+
+header nav {
+    width: inherit;
+    height: 70px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+header nav a {
+    min-width: 100px;
+    border: 1px solid aqua;
+    border-radius: 3px;
+    text-align: center;
+    color: aqua;
+    background: chocolate;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+}
+
+/*---------MAIN------------*/
+main {
+    background: lightblue;
+    padding: 20px;
+    min-height: calc(100vh - 70px);
+}
+
+main form {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main form input {
+    background: chocolate;
+    border: 1px solid aqua;
+    border-radius: 3px;
+    min-width: 100px;
+    color: aqua;
+    margin: 0 15px 0 0;
+    padding: 5px;
+}
+
+main form button {
+    min-width: 70px;
+    height: 50px;
+    text-align: center;
+    background: aqua;
+    color: black;
+    border-radius: 10px;
+}
+
+main form input:hover,
+main form input:active {
+    background: chocolate;
+    color: white;
+}

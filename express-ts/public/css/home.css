@@ -1,0 +1,41 @@
+@import "reset.css";
+
+/*---------CUSTOM STYLE------------*/
+body {
+    font-family: sans-serif;
+}
+
+/*---------HEADER------------*/
+
+header {
+    background: chocolate;
+    width: 100%;
+    padding: 0 20px;
+}
+
+header nav {
+    width: inherit;
+    height: 70px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+header nav a {
+    min-width: 100px;
+    border: 1px solid aqua;
+    border-radius: 3px;
+    text-align: center;
+    color: aqua;
+    background: chocolate;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+}
+
+/*---------MAIN------------*/
+main {
+    background: lightblue;
+    padding: 20px;
+    min-height: calc(100vh - 70px);
+}
